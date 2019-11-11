@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
-languageCode = "en"
+languageCode = "kr-ko"
 defaultContentLanguage = "en"
-title = "KeepIt"
+title = "Guelog"
 theme = "KeepIt"
 
 paginate = 12
@@ -41,7 +41,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     since = 2012
-    author = "Fastbyte01"               # Author's name
+    author = "tingnana32"               # Author's name
     subtitle = "A Hugo theme"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
@@ -55,8 +55,8 @@ disqusShortname = "yourdiscussshortname"
     avatar = "/images/me/avatar.jpg" #comment it to use gravatar
     socialShare = true
     
-    description = "" # site description
-    keywords = "" # site keywords
+    description = "Guelog" # site description
+    keywords = "Blog" # site keywords
 
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
@@ -140,10 +140,10 @@ Linkedin = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = "Fastbyte01"
+  name = "tingnana32"
 
   [params.publisher]
-    name = "Fastbyte01"
+    name = "tingnana32"
 
     [params.publisher.logo]
       url = "logo.png"
@@ -161,7 +161,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     height = 600
 
 [params.gitalk]
-owner = ""       # Your GitHub ID       
+owner = "tingna32"       # Your GitHub ID       
 repo = ""        # The repo to store comments    
 clientId = ""    # Your client ID      
 clientSecret = "" # Your client secret
