@@ -1,5 +1,5 @@
-baseURL = "https://github.com/tingna32/HugoGuelog.git"
-languageCode = "kr-ko"
+baseURL = "https://example.com"
+languageCode = "en"
 defaultContentLanguage = "en"
 title = "Guelog"
 theme = "KeepIt"
@@ -25,7 +25,7 @@ disqusShortname = "yourdiscussshortname"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
+    name = "Guelog"
     url = "/posts/"
     weight = 1
 
@@ -40,9 +40,9 @@ disqusShortname = "yourdiscussshortname"
     weight = 4
 
 [params]
-    since = 2012
+    since = 2019
     author = "tingnana32"               # Author's name
-    subtitle = "A Hugo theme"       # Subtitle
+    subtitle = "A Guelog"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -55,22 +55,22 @@ disqusShortname = "yourdiscussshortname"
     avatar = "/images/me/avatar.jpg" #comment it to use gravatar
     socialShare = true
     
-    description = "Guelog" # site description
-    keywords = "Blog" # site keywords
+    description = "Guelog Launching" # site description
+    keywords = "Devlog" # site keywords
 
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+    #email = "tingnana32@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
-    GitHub = "https://github.com/tingna32/HugoGuelog.git"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "tingna32"
+    #Linkedin = "xxxx"
+    #Twitter = "xxxx"
     #Instagram = "xxxx"
     #Email   = "xxxx"
-    Facebook = "xxxx"
+    #Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -161,7 +161,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     height = 600
 
 [params.gitalk]
-owner = "tingna32"       # Your GitHub ID       
+owner = ""       # Your GitHub ID       
 repo = ""        # The repo to store comments    
 clientId = ""    # Your client ID      
 clientSecret = "" # Your client secret
@@ -173,7 +173,7 @@ clientSecret = "" # Your client secret
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
   avatar = 'mm'
-  placeholder = 'Guelog lauch'
+  placeholder = 'your comments ...'
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
