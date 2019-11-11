@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://github.com/tingna32/HugoGuelog.git"
 languageCode = "kr-ko"
 defaultContentLanguage = "en"
 title = "Guelog"
@@ -65,7 +65,7 @@ disqusShortname = "yourdiscussshortname"
 
 
 [params.social]
-    GitHub = "xxxx"
+    GitHub = "https://github.com/tingna32/HugoGuelog.git"
     Linkedin = "xxxx"
     Twitter = "xxxx"
     #Instagram = "xxxx"
@@ -173,7 +173,7 @@ clientSecret = "" # Your client secret
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
   avatar = 'mm'
-  placeholder = 'your comments ...'
+  placeholder = 'Guelog lauch'
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
